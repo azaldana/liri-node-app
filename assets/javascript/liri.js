@@ -151,7 +151,7 @@ function spotifyThisSong(search) {
 
     console.log("Artist(s): " + JSON.stringify(data.artists[0].name));
     console.log("Song Name: " + JSON.stringify(data.name));
-    console.log("Preview Link: " + JSON.stringify(data.external_urls));
+    console.log("Preview Link: " + JSON.stringify(data.preview_url));
     console.log("Album: " + JSON.stringify(data.album.name));
 
     fs.appendFile("log.txt", songData + divider, function (err) {
