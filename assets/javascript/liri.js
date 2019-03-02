@@ -13,28 +13,29 @@ var moment = require('moment');
 // var moment = require('moment');
 
 
+  switch (input) {
+    case 'concert-this':
+      concertThis(search);
+      break;
+  
+    case 'movie-this':
+      movieThis(search);
+      break;
+  
+    case 'spotify-this-song':
+      spotifyThisSong(search);
+      break;
+  
+    case 'do-what-it-says':
+      doWhatItSays(search);
+      break;
+  
+    default:
+      console.log("Please use a valid command.")
+      return;
+  };
 
-switch (input) {
-  case 'concert-this':
-    concertThis(search);
-    break;
 
-  case 'movie-this':
-    movieThis(search);
-    break;
-
-  case 'spotify-this-song':
-    spotifyThisSong(search);
-    break;
-
-  case 'do-what-it-says':
-    doWhatItSays(search);
-    break;
-
-  default:
-    console.log("Please use a valid command.")
-    return;
-};
 
 // Axios Call - OMDb Include the axios npm package (Don't forget to run "npm install axios" in this folder first!) //
 
@@ -167,14 +168,37 @@ function spotifyThisSong(search) {
 
 function doWhatItSays() {
   fs.readFile("random.txt", "utf8", function (error, data) {
+    var dataArr = data.split(",");
+
+    console.log(dataArr);
+
+    var input = dataArr[0];
+    var search = dataArr[1];
+
+    switch (input) {
+      case 'concert-this':
+        concertThis(search);
+        break;
+    
+      case 'movie-this':
+        movieThis(search);
+        break;
+    
+      case 'spotify-this-song':
+        spotifyThisSong(search);
+        break;
+    
+      default:
+        console.log("Please use a valid command.")
+        return;
+    };
+
     if (error) {
       return console.log(error);
     }
     console.log(data);
 
-    var dataArr = data.split(",");
-
-      console.log(dataArr);
+    
     })
   }
 
