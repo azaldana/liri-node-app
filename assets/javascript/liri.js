@@ -145,7 +145,7 @@ function spotifyThisSong(search) {
       var songData = [
         "Artist(s): " + data.artists[0].name,
         "Song Name: " + data.name,
-        "Preview Link: " + data.external_urls,
+        "Preview Link: " + data.preview_url,
         "Album: " + data.album.name,
       ].join('\n\n');
 
