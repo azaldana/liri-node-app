@@ -15,7 +15,7 @@ LIRI will be a command line node app that takes in parameters and gives you back
 
 + Javascript
 + Node
++ Moment.js
 + Spotify API
 + OMDb API
 + Bands in Town API
-+ Moment.js
