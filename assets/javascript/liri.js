@@ -9,10 +9,6 @@ const fs = require('fs');
 var divider = "\n-------------------------------------------------------------------\n\n";
 var moment = require('moment');
 
-// add moment.js //
-// var moment = require('moment');
-
-
   switch (input) {
     case 'concert-this':
       concertThis(search);
@@ -51,9 +47,6 @@ function movieThis(search) {
 
   axios.get(queryUrl).then(
     function (response) {
-      // console.log(queryUrl)
-
-      // console.log(response);
 
       var jsonData = response.data;
 
@@ -84,7 +77,7 @@ function movieThis(search) {
         if (err) {
           console.log("Error", err);
         }
-        // console.log("Something went wrong!");
+      
       })
     })
 
@@ -101,7 +94,6 @@ function concertThis(search) {
       var jsonData = result.data;
 
       for (var i =0; i < jsonData.length; i++){
-        // jsonData = result.data;
 
         var eventData = [
           "Venue: " + jsonData[i].venue.name,
@@ -121,7 +113,6 @@ function concertThis(search) {
         if (err) {
           console.log("Error", err);
         }
-        // console.log("Something went wrong!");
       })
     }
   );
@@ -159,7 +150,6 @@ function spotifyThisSong(search) {
       if (err) {
         console.log("Error", err);
       }
-      // console.log("Something went wrong!");
     })
 
   });
@@ -201,7 +191,3 @@ function doWhatItSays() {
     
     })
   }
-
-
-
-      
