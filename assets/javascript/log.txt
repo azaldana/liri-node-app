@@ -67,3 +67,29 @@ Preview Link: [object Object]
 Album: I AM...SASHA FIERCE
 -------------------------------------------------------------------
 
+Venue: Fantasy Springs Resort Casino
+
+Location: Indio,CA,United States
+-------------------------------------------------------------------
+
+Venue: Fantasy Springs Resort Casino
+
+Location: Indio,CA,United States
+
+Event Date: 04/06/2019
+-------------------------------------------------------------------
+
+Venue: Fantasy Springs Resort Casino
+
+Location: Indio,CA,United States
+
+Event Date: 04/06/2019
+-------------------------------------------------------------------
+
+Venue: Fantasy Springs Resort Casino
+
+Location: Indio, CA, United States
+
+Event Date: 04/06/2019
+-------------------------------------------------------------------
+

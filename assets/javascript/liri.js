@@ -92,26 +92,28 @@ function movieThis(search) {
 function concertThis(search) {
   var axios = require("axios");
   var artist = search;
-  var datetime = moment();
 
   var queryUrl = "https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp";
 
   axios.get(queryUrl).then(
     function (result) {
-
       var jsonData = result.data;
 
-      var eventData = [
-        "Venue: " + jsonData.venue.name,
-        "Location: " + jsonData.venue.city + "," + jsonData.venue.region + "," + jsonData.venue.country,
-        "Event Date: " + jsonData.datatime.format("MM/DD/YY"),
-      ].join('\n\n');
+      for (var i =0; i < jsonData.length; i++){
+        // jsonData = result.data;
 
-      console.log("=========================")
-      console.log("Venue: " + result.data.venue.name);
-      console.log("Location: " + result.data.venue.city + "," + result.data.venue.region + "," + result.data.venue.country);
-      console.log("Event Date: " + result.data.datetime.moment(format("MM/DD/YY"))); // moment .js use here //
-      console.log("==========================");
+        var eventData = [
+          "Venue: " + jsonData[i].venue.name,
+          "Location: " + jsonData[i].venue.city + ", " + jsonData[i].venue.region + ", " + jsonData[i].venue.country,
+          "Event Date: " + moment(jsonData[i].datetime).format('L'),
+        ].join('\n\n');
+  
+        console.log("=========================")
+        console.log("Venue: " + jsonData[i].venue.name);
+        console.log("Location: " + jsonData[i].venue.city + ", " + jsonData[i].venue.region + ", " + jsonData[i].venue.country);
+        console.log("Event Date: " + moment(jsonData[i].datetime).format('L'));
+        console.log("==========================");
+      }
 
       fs.appendFile("log.txt", eventData + divider, function (err) {
 
@@ -169,11 +171,13 @@ function doWhatItSays() {
       return console.log(error);
     }
     console.log(data);
+
+    var dataArr = data.split(",");
+
+      console.log(dataArr);
     })
   }
 
 
 
-      // var dataArr = data.split(",");
-
-      // console.log(dataArr);
+      
