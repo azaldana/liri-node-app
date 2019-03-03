@@ -14,6 +14,8 @@ LIRI will be a command line node app that takes in parameters and gives you back
 ![LIRI Bot Screenshot](/assets/images/screenshot-01.jpg/)
 ![LIRI Bot Screenshot](/assets/images/screenshot-02.jpg/)
 ![LIRI Bot Screenshot](/assets/images/screenshot-03.jpg/)
+![LIRI Bot Screenshot](/assets/images/screenshot-04.jpg/)
+![LIRI Bot Screenshot](/assets/images/screenshot-05.jpg/)
 
 ## Technology
 
