@@ -32,28 +32,18 @@ Plot: Competition between the maid of honor and a bridesmaid, over who is the br
 Actors: Kristen Wiig, Terry Crews, Maya Rudolph, Tom Yi
 -------------------------------------------------------------------
 
-Movie Title: Bridesmaids
+Venue: Fantasy Springs Resort Casino
 
-Release Year: 2011
+Location: Indio, CA, United States
 
-Rating: 6.8
-
-Rotten Tomatoes: 90%
-
-Country: USA
-
-Language: English
-
-Plot: Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef.
-
-Actors: Kristen Wiig, Terry Crews, Maya Rudolph, Tom Yi
+Event Date: 04/06/2019
 -------------------------------------------------------------------
 
 Artist(s): Ace of Base
 
 Song Name: The Sign
 
-Preview Link: [object Object]
+Preview Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=c7e1bd8a162f4086a8960a263138ad72
 
 Album: The Sign (US Album) [Remastered]
 -------------------------------------------------------------------
@@ -62,95 +52,9 @@ Artist(s): Beyoncé
 
 Song Name: Halo
 
-Preview Link: [object Object]
+Preview Link: https://p.scdn.co/mp3-preview/3c97985f3736fab6d4abcd2067f346a9b30955fa?cid=c7e1bd8a162f4086a8960a263138ad72
 
 Album: I AM...SASHA FIERCE
--------------------------------------------------------------------
-
-Venue: Fantasy Springs Resort Casino
-
-Location: Indio,CA,United States
--------------------------------------------------------------------
-
-Venue: Fantasy Springs Resort Casino
-
-Location: Indio,CA,United States
-
-Event Date: 04/06/2019
--------------------------------------------------------------------
-
-Venue: Fantasy Springs Resort Casino
-
-Location: Indio,CA,United States
-
-Event Date: 04/06/2019
--------------------------------------------------------------------
-
-Venue: Fantasy Springs Resort Casino
-
-Location: Indio, CA, United States
-
-Event Date: 04/06/2019
--------------------------------------------------------------------
-
-Artist(s): Backstreet Boys
-
-Song Name: I Want It That Way
-
-Preview Link: [object Object]
-
-Album: The Hits--Chapter One
--------------------------------------------------------------------
-
-Movie Title: Air Bud
-
-Release Year: 1997
-
-Rating: 5.2
-
-Rotten Tomatoes: 45%
-
-Country: USA, Canada
-
-Language: English
-
-Plot: A young boy and a talented stray dog with an amazing basketball playing ability become instant friends. Rebounding from his father's accidental death, 12-year-old Josh Framm moves with his ...
-
-Actors: Michael Jeter, Kevin Zegers, Wendy Makkena, Bill Cobbs
--------------------------------------------------------------------
-
-Venue: AmericanAirlines Arena
-
-Location: Miami, FL, United States
-
-Event Date: 05/12/2019
--------------------------------------------------------------------
-
-Artist(s): Beyoncé
-
-Song Name: Drunk in Love
-
-Preview Link: [object Object]
-
-Album: BEYONCÉ [Platinum Edition]
--------------------------------------------------------------------
-
-Artist(s): Backstreet Boys
-
-Song Name: I Want It That Way
-
-Preview Link: [object Object]
-
-Album: The Hits--Chapter One
--------------------------------------------------------------------
-
-Artist(s): Beyoncé
-
-Song Name: Drunk in Love
-
-Preview Link: https://p.scdn.co/mp3-preview/7052c45ae9298c38fdbd1b45bec7fc5f554fafa0?cid=c7e1bd8a162f4086a8960a263138ad72
-
-Album: BEYONCÉ [Platinum Edition]
 -------------------------------------------------------------------
 
 Artist(s): Backstreet Boys
